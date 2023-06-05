@@ -1,0 +1,9 @@
+CREATE TABLE endereco (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    rua VARCHAR(255) NOT NULL,
+    numero_casa VARCHAR(10) NOT NULL,
+    bairro VARCHAR(255) NOT NULL,
+    cep VARCHAR(10) NOT NULL,
+    cidade VARCHAR(255) NOT NULL,
+    estado VARCHAR(255) NOT NULL
+);
